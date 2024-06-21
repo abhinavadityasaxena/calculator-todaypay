@@ -65,6 +65,7 @@ A web-based scientific calculator inspired by the macOS Calculator. This calcula
 ## Contact
 
 If you have any questions or feedback, feel free to reach out.
+saxenaabhinavaditya@gmail.com
 
-```saxenaabhinavaditya@gmail.com
+
 
