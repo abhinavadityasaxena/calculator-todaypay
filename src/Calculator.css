@@ -1,0 +1,147 @@
+/* src/Calculator.css */
+
+.calculator {
+    font-family: 'Roboto', sans-serif;
+    width: 760px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calculator.dark {
+    background: #333;
+    color: white;
+  }
+  
+  .calculator.light {
+    background: #f5f5f5;
+    color: black;
+  }
+  
+  .calculator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calculator-dots {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 4px;
+  }
+  
+  .red {
+    background-color: #ff605c;
+  }
+  
+  .yellow {
+    background-color: #ffbd44;
+  }
+  
+  .green {
+    background-color: #00ca4e;
+  }
+  
+  .display {
+    background: #444;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .calculator.light .display {
+    background: #e5e5e5;
+    color: #333;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #666;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px #444;
+  }
+  
+  .calculator.light button {
+    background: #ddd;
+    color: #333;
+    box-shadow: 0px 5px #bbb;
+  }
+  
+  button.operator {
+    background: #f39c12;
+    color: #fff;
+  }
+  
+  .calculator.light button.operator {
+    background: #ffa726;
+    color: #fff;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 3px #444;
+  }
+  
+  .calculator.light button:active {
+    box-shadow: 0px 3px #bbb;
+  }
+  
+  button.number {
+    background: #666;
+    color: #fff;
+  }
+  
+  .calculator.light button.number {
+    background: #ddd;
+    color: #333;
+  }
+  
+  .theme-switcher button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #777;
+    color: #fff;
+  }
+  
+  .calculator.light .theme-switcher button {
+    background: #ccc;
+    color: #333;
+  }
+  
+  .theme-switcher button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px #444;
+  }
+  
+  .calculator.light .theme-switcher button:active {
+    box-shadow: 0px 0px #bbb;
+  }
+  
