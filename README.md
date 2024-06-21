@@ -1,6 +1,3 @@
-Here is a README file for your GitHub repository:
-
-```markdown
 # Calculator TodayPay
 
 A web-based scientific calculator inspired by the macOS Calculator. This calculator provides basic arithmetic operations as well as advanced scientific functions.
@@ -71,4 +68,3 @@ If you have any questions or feedback, feel free to reach out.
 
 ```saxenaabhinavaditya@gmail.com
 
-This README provides an overview of the project, installation instructions, usage guidelines, and other relevant information to help users and contributors get started with the project. Make sure to include an actual screenshot image in the `./screenshots/` directory for the screenshot section to work.
